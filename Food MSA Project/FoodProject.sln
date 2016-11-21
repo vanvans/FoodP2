@@ -2,11 +2,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moodify", "Moodify\Moodify.csproj", "{F4DEB724-2EE9-4BEE-89A5-DE7422E5B4A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foodproject", "Moodify\Foodproject.csproj", "{F4DEB724-2EE9-4BEE-89A5-DE7422E5B4A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moodify.iOS", "iOS\Moodify.iOS.csproj", "{BAB5C659-7716-42C4-B06B-4B67C95A4D4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foodproject.iOS", "iOS\Foodproject.iOS.csproj", "{BAB5C659-7716-42C4-B06B-4B67C95A4D4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moodify.Droid", "Droid\Moodify.Droid.csproj", "{9F1663A8-B28E-44FA-A6F0-EE93D4BCCB9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foodproject.Droid", "Droid\Foodproject.Droid.csproj", "{9F1663A8-B28E-44FA-A6F0-EE93D4BCCB9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
