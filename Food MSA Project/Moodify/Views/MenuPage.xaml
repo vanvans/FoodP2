@@ -7,7 +7,7 @@
 		<StackLayout BackgroundColor="White">
 			<Button Text="Home" TextColor="White" BackgroundColor="Green" Command="{Binding GoHomeCommand}" />
 			<Button Text="Second Page" TextColor="White" BackgroundColor="Navy" Command="{Binding GoSecondCommand}" />
-      <Button Text="wassup" TextColor="White" BackgroundColor="#00006"/>
+      <Button Text="Account Settings" TextColor="White" BackgroundColor="Black" Command="{Binding GoAccountSettings}" />
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

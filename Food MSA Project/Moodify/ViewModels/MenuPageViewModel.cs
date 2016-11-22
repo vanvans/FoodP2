@@ -8,11 +8,13 @@ namespace Moodify
 	{
 		public ICommand GoHomeCommand { get; set; }
 		public ICommand GoSecondCommand { get; set; }
+        public ICommand GoAccountSettings { get; set; }
 
-		public MenuPageViewModel()
+        public MenuPageViewModel()
 		{
 			GoHomeCommand = new Command(GoHome);
 			GoSecondCommand = new Command(GoSecond);
+            GoAccountSettings = new Command(AccountSettings);
 		}
 
 		void GoHome(object obj)
@@ -26,5 +28,14 @@ namespace Moodify
             App.RootPage.Detail = new NavigationPage(new SecondPage());
             App.MenuIsPresented = false;
 		}
-	}
+
+        void AccountSettings(object obj)
+        {
+            App.RootPage.Detail = new NavigationPage(new AccountSettings());
+            App.MenuIsPresented = false;
+        }
+
+
+    }
+
 }

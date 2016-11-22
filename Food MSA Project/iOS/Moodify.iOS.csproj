@@ -102,9 +102,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Moodify\Foodproject.csproj">
+    <ProjectReference Include="..\Moodify\Moodify.csproj">
       <Project>{F4DEB724-2EE9-4BEE-89A5-DE7422E5B4A2}</Project>
-      <Name>Foodproject</Name>
+      <Name>Moodify</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
