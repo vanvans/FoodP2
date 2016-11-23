@@ -3,11 +3,15 @@
   <ContentPage.Content>
 
 
-    <StackLayout Spacing="0" x:Name="layout" BackgroundColor="MainBorderStyle">
-      <Button Text="StackLayout" VerticalOptions="Start"
+    <StackLayout Spacing="0" x:Name="layout" BackgroundColor="#330000">
+      <Button Text="View Menu" VerticalOptions="Center"
         HorizontalOptions="FillAndExpand" />
-      
+
+
     </StackLayout>
+  
+
+
   </ContentPage.Content>
 </ContentPage>
 

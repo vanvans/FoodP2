@@ -9,9 +9,9 @@
     
     
 		<StackLayout BackgroundColor="White">
-			<Button Text="Home" TextColor="White" BackgroundColor="#330033" Command="{Binding GoHomeCommand}" />
-			<Button Text="Second Page" TextColor="White" BackgroundColor="#330033" Command="{Binding GoSecondCommand}" />
-      <Button Text="Account Settings" TextColor="White" BackgroundColor="#330033" Command="{Binding GoAccountSettings}" />
+			<Button Text="Home" TextColor="White" BackgroundColor="#ff0066" Command="{Binding GoHomeCommand}" />
+			<Button Text="Second Page" TextColor="White" BackgroundColor="#ff0066" Command="{Binding GoSecondCommand}" />
+      <Button Text="Account Settings" TextColor="White" BackgroundColor="#ff0066" Command="{Binding GoAccountSettings}" />
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>
