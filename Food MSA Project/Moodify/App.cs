@@ -1,4 +1,6 @@
 ﻿using Xamarin.Forms;
+using Microsoft.WindowsAzure.MobileServices;
+using Newtonsoft.Json;
 
 namespace Moodify
 {

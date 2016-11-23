@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Xamarin.Forms;
+using System.Linq;
+using System.Text;
+using System.Reflection.Emit;
 using Moodify.DataModels;
 
 namespace Moodify
@@ -12,6 +15,13 @@ namespace Moodify
 			InitializeComponent();
 		}
 
+
+
+
+        private async void LoginWithFacebook_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SecondPage());
+        }
 
 	}
 

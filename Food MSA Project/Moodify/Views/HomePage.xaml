@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Moodify.HomePage">
-  <ContentPage.Content>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Moodify.HomePage">
 
 
-    <StackLayout Spacing="0" x:Name="layout" BackgroundColor="#330000">
-      <Button Text="View Menu" VerticalOptions="Center"
-        HorizontalOptions="FillAndExpand" />
+
+    <StackLayout Spacing="0" Orientation ="Vertical">
+      <Button Text="Login with Facebook"
+              VerticalOptions="Center"
+              BackgroundColor ="#cc3333"
+              FontSize="20"
+              Clicked="LoginWithFacebook_Clicked"/>
+
+      <Button Text="Use as guest"
+               VerticalOptions="Center"
+               BackgroundColor ="#ffffff"
+               FontSize="20"
+               BorderRadius="15"
+               Clicked="LoginWithFacebook_Clicked"/>
+
+     
 
 
     </StackLayout>
   
 
-
-  </ContentPage.Content>
 </ContentPage>
 
 
