@@ -102,6 +102,8 @@ class MonoPackageManager_Resources {
 		"fab.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
+		"System.Net.Http.Extensions.dll",
+		"System.Net.Http.Primitives.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",
@@ -136,9 +138,10 @@ class MonoPackageManager_Resources {
 		"System.Threading.dll",
 		"System.Reflection.Extensions.dll",
 		"System.Text.Encoding.Extensions.dll",
+		"System.Runtime.InteropServices.dll",
+		"System.Net.Primitives.dll",
 		"System.ComponentModel.dll",
 		"System.Collections.Concurrent.dll",
-		"System.Runtime.InteropServices.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
