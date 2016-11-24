@@ -37,7 +37,7 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="AzureManager.cs" />
-    <Compile Include="DataModels\Fakedata.cs" />
+    <Compile Include="DataModels\Timeline.cs" />
     <Compile Include="Views\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>

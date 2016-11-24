@@ -1,56 +1,52 @@
-﻿using System;
+﻿using Microsoft.WindowsAzure.MobileServices;
+using fab.DataModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using fab.DataModels;
-using Microsoft.WindowsAzure.MobileServices;
 
 namespace fab
 {
     public class AzureManager
     {
+
         private static AzureManager instance;
         private MobileServiceClient client;
-        private IMobileServiceTable<Fakedata> fakedataTable;
+        private IMobileServiceTable<Timeline> timelineTable;
 
         private AzureManager()
         {
-            this.client = new MobileServiceClient("http://www.giraffes.azurewebsites.net");
-            this.fakedataTable = this.client.GetTable<Fakedata>();
+            this.client = new MobileServiceClient("http://giraffes.azurewebsites.net");
+            this.timelineTable = this.client.GetTable<Timeline>();
         }
-
 
         public MobileServiceClient AzureClient
         {
             get { return client; }
         }
 
-
         public static AzureManager AzureManagerInstance
         {
-
             get
             {
                 if (instance == null)
                 {
                     instance = new AzureManager();
                 }
+
                 return instance;
             }
         }
 
-        public async Task AddFakedata(Fakedata fakedata)
+        public async Task AddTimeline(Timeline timeline)
         {
-            await this.fakedataTable.InsertAsync(fakedata);
+            await this.timelineTable.InsertAsync(timeline);
         }
 
-
-        public async Task<List<Fakedata>> GetFakedatas()
+        public async Task<List<Timeline>> GetTimelines()
         {
-            return await this.fakedataTable.ToListAsync();
+            return await this.timelineTable.ToListAsync();
         }
-
-
     }
 }

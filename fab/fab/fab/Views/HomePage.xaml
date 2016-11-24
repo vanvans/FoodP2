@@ -4,8 +4,8 @@
              x:Class="fab.HomePage"
              Title="Menu">
   <ContentPage.Content>
-  <StackLayout>
-    <Button Text="Fucking hell can u work already" VerticalOptions="Center" HorizontalOptions="Center" Clicked="ViewFakedata_Clicked"/>
+  <StackLayout BackgroundColor="#bebebe">
+    <Button Text="Fucking hell can u work already" Clicked="ViewFakedata_Clicked"/>
     
     
     <ListView x:Name="FakedataList" HasUnevenRows="True">
@@ -24,9 +24,9 @@
               <ColumnDefinition Width="50*"/> 
               </Grid.ColumnDefinitions>
 
-              <Label Grid.Column= "0" Text= "{Binding Category}" />
-              <Label Grid.Column="1" Text="{Binding Price}" />
-              <Label Grid.Column="2" Text="{Binding Promo}" />
+              <Label Grid.Column= "0" Text= "{Binding MenuNo}" />
+              <Label Grid.Column="1" Text="{Binding MenuDesc}" />
+              <Label Grid.Column="2" Text="{Binding Category}" />
               
             </Grid>
           </ViewCell>
