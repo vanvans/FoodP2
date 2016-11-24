@@ -9,6 +9,9 @@ namespace fab
 {
     public class App : Application
     {
+
+
+
         public App()
         {
             MainPage = new NavigationPage(new Welcome())
@@ -16,6 +19,7 @@ namespace fab
                 BarTextColor = Color.White,
                 BarBackgroundColor = Color.FromHex("#Ff4529")
             };
+
 
             
         }
