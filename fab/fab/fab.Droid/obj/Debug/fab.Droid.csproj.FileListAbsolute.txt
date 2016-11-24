@@ -85,6 +85,8 @@ C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\fab.Droid.apk
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\fab.Droid-Signed.apk
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\fab.dll
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.dll
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\Newtonsoft.Json.dll
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\System.Net.Http.Extensions.dll
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\System.Net.Http.Primitives.dll
@@ -103,6 +105,8 @@ C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\Xamarin.Forms
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\fab.pdb
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\FormsViewGroup.pdb
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
+C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\Microsoft.WindowsAzure.Mobile.Ext.xml
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\Newtonsoft.Json.xml
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\System.Net.Http.Extensions.xml
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab.Droid\bin\Debug\System.Net.Http.Primitives.xml

@@ -24,12 +24,10 @@ C:\Users\vanessa\Desktop\fab\fab\fab\obj\Debug\fab.Views.Welcome.xaml.g.cs
 C:\Users\vanessa\Desktop\fab\fab\fab\obj\Debug\fab.Views.HomePage.xaml.g.cs
 C:\Users\vanessa\Desktop\fab\fab\fab\obj\Debug\fab.dll.mdb
 C:\Users\vanessa\Desktop\fab\fab\fab\bin\Debug\fab.dll.mdb
-C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\obj\Debug\fab.csproj.App.config
-C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\obj\Debug\fab.Views.Welcome.xaml.g.cs
-C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\obj\Debug\fab.Views.HomePage.xaml.g.cs
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\fab.dll.config
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\fab.dll
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\fab.pdb
+C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\Microsoft.WindowsAzure.Mobile.dll
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\Newtonsoft.Json.dll
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\System.Net.Http.dll
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\System.Net.Http.Extensions.dll
@@ -37,6 +35,7 @@ C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\System.Net.Http.Pri
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\Xamarin.Forms.Core.dll
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\Xamarin.Forms.Platform.dll
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\Microsoft.WindowsAzure.Mobile.xml
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\Newtonsoft.Json.xml
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\System.Net.Http.xml
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\System.Net.Http.Extensions.xml
@@ -46,10 +45,11 @@ C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\Xamarin.Forms.Core.
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\Xamarin.Forms.Platform.pdb
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\obj\Debug\fab.csprojResolveAssemblyReference.cache
+C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\obj\Debug\fab.csproj.App.config
+C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\obj\Debug\fab.Views.Welcome.xaml.g.cs
+C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\obj\Debug\fab.Views.HomePage.xaml.g.cs
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\obj\Debug\fab.dll
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\obj\Debug\fab.pdb
-C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\obj\Debug\fab.dll.mdb
-C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\fab.dll.mdb
+C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\obj\Debug\fab.csprojResolveAssemblyReference.cache
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\obj\Debug\fab.dll.mdb
 C:\Users\vanessa\Desktop\github\Foodp2\fab\fab\fab\bin\Debug\fab.dll.mdb

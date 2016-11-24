@@ -21,10 +21,14 @@ namespace fab
             await Navigation.PushAsync(new HomePage());
         }
 
+
+
         public async void userClick(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new HomePage());
         }
+
+
 
         async void helpmessage(object sender, EventArgs args)
         {

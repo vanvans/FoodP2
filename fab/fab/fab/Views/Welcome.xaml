@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="fab.Welcome"
-             Title="Fabrikam Food">
+             x:Class="fab.Welcome"  >
 
   <StackLayout Spacing="12" BackgroundColor="#ff4529">
 
-  <Button Text="Sign in with ..." 
+    <Image Source="http://i68.tinypic.com/2chtg5x.png" HeightRequest="150" WidthRequest="150"/>
+
+    <Button Text="Sign in with ..." 
           FontSize="15" 
           WidthRequest="250"
           HorizontalOptions="Center" 
