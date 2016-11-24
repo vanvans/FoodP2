@@ -12,11 +12,11 @@ namespace fab
             InitializeComponent();
         }
 
-
         private async void ViewFakedata_Clicked(Object sender, EventArgs e)
         {
             List<Timeline> timelines = await AzureManager.AzureManagerInstance.GetTimelines();
             FakedataList.ItemsSource = timelines;
+
         }
 
     }

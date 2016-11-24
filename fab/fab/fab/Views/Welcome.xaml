@@ -34,7 +34,7 @@
           TextColor="White"
           Clicked ="helpmessage"/>
 
-    <BoxView HeightRequest="200" Color="#FF001F" VerticalOptions="EndAndExpand"
+    <BoxView HeightRequest="150" Color="#FF001F" VerticalOptions="EndAndExpand"
  HorizontalOptions="FillAndExpand" />
  
   </StackLayout>

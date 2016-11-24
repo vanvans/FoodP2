@@ -2,10 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="fab.HomePage"
+             NavigationPage.HasBackButton="false"
              Title="Menu">
   <ContentPage.Content>
-  <StackLayout BackgroundColor="#bebebe">
-    <Button Text="Fucking hell can u work already" Clicked="ViewFakedata_Clicked"/>
+  <StackLayout BackgroundColor="#fff">
+    <Button Text="View full menu" Clicked="ViewFakedata_Clicked" BackgroundColor="#808080" TextColor="#fff"/>
     
     
     <ListView x:Name="FakedataList" HasUnevenRows="True">
@@ -24,10 +25,10 @@
               <ColumnDefinition Width="50*"/> 
               </Grid.ColumnDefinitions>
 
-              <Label Grid.Column= "0" Text= "{Binding MenuNo}" />
-              <Label Grid.Column="1" Text="{Binding MenuDesc}" />
-              <Label Grid.Column="2" Text="{Binding Category}" />
-              
+              <Image Source="{Binding ImageF}" WidthRequest="80" HeightRequest="80"/>
+              <Label Grid.Column="1" Text="{Binding ItemName}" FontSize="15" VerticalTextAlignment="Center" TextColor="#ff5c20"/>
+              <Label Grid.Column="2" Text="{Binding Price}" VerticalTextAlignment="Center" TextColor="#ff5c20"/>
+            
             </Grid>
           </ViewCell>
           
