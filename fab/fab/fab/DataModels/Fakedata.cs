@@ -11,7 +11,10 @@ namespace fab.DataModels
 
     public class Fakedata
     {
-        [JsonProperty(PropertyName = "menuid")]
+        [JsonProperty(PropertyName = "Id")]
+        public string ID { get; set; }
+
+        [JsonProperty(PropertyName = "menuNo")]
         public string MenuID { get; set; }
 
         [JsonProperty(PropertyName = "itemName")]
